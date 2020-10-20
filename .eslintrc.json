@@ -1,0 +1,7 @@
+{
+  "extends": "react-app",
+
+  "template-tag-spacing": [2, "always"],
+  "unicode-bom": 0,
+  "wrap-regex": 2
+}
