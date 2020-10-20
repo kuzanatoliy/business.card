@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function Header() {
+export function EducationPage() {
   return (
     <div>
-      Header
+      Education page
     </div>
   )
-}
+};

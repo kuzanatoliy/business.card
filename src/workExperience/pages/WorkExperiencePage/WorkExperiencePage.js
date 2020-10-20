@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function Footer() {
+export function WorkExperiencePage() {
   return (
     <div>
-      Footer
+      WorkExperiencePage
     </div>
   );
 }

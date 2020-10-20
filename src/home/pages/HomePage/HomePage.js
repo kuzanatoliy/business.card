@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function Footer() {
+export function HomePage() {
   return (
     <div>
-      Footer
+      HomePage
     </div>
   );
 }
