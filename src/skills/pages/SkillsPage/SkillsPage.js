@@ -1,9 +1,9 @@
-import React from './index';
+import React from 'react';
 
 export function SkillsPage() {
   return (
     <div>
-      SkillsPage
+      Skills page
     </div>
   )
 }
