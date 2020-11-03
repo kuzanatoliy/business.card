@@ -3,7 +3,7 @@ import React from 'react';
 export function Footer() {
   return (
     <div>
-      Footer
+      ©2020 Kuzmiankou Anatoli
     </div>
   );
 }

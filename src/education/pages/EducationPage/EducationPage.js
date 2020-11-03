@@ -1,6 +1,8 @@
 import React from 'react';
 
-export function EducationPage() {
+export function EducationPage(props) {
+  // console.log(props);
+
   return (
     <div>
       Education page
