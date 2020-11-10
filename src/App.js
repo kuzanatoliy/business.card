@@ -29,7 +29,6 @@ import {
   SKILLS_ROUTE_TITLE,
   WORK_EXPERIENCE_ROUTE_TITLE
 } from './common'
-import { Height } from '@material-ui/icons';
 
 const useStyles = makeStyles({
   root: {

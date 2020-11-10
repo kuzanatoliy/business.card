@@ -55,7 +55,7 @@ export function Header(props) {
           <nav>{ children.map( createMenuItem ) }</nav>
         </Menu>
         <Typography variant='h6' color='inherit'>
-          { activeElement.props.children }
+          { activeElement ? activeElement.props.children : '' }
         </Typography>
       </Toolbar>
     </AppBar>
