@@ -12,6 +12,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 import { useLocation } from 'react-router-dom';
 
+import { useIndentStyles } from '../../hooks';
+
 const useStyles = makeStyles({
   menuItem: {
     '& a': {
@@ -23,6 +25,7 @@ const useStyles = makeStyles({
 
 export function Header(props) {
   const classes = useStyles();
+  const indentStyles = useIndentStyles();
   const location = useLocation();
   const [ anchorEl, setAnchorEl ] = useState(null);
   const children = Children.toArray(props.children);
@@ -43,7 +46,7 @@ export function Header(props) {
 
   return (
     <AppBar position='static'>
-      <Toolbar variant='dense'>
+      <Toolbar variant='dense' className={ indentStyles.main }>
         <IconButton edge='start' color='inherit' aria-label='menu' onClick={ menuOpenHandler }>
           <MenuIcon />
         </IconButton>

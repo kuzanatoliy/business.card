@@ -2,7 +2,9 @@ import React from 'react';
 
 import { makeStyles } from '@material-ui/core/styles';
 
-import Typography from '@material-ui/core/Typography'
+import Typography from '@material-ui/core/Typography';
+
+import { useIndentStyles } from '../../hooks';
 
 const useStyles = makeStyles({
   root: {
@@ -12,9 +14,10 @@ const useStyles = makeStyles({
 
 export function Footer() {
   const classes = useStyles();
+  const indentClasses = useIndentStyles();
 
   return (
-    <Typography className={ classes.root } align='center' display='block'>
+    <Typography className={ `${ classes.root } ${ indentClasses.main }` } align='center' display='block'>
       ©2020 Kuzmiankou Anatoli
     </Typography>
   );
