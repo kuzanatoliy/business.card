@@ -25,7 +25,7 @@ export function CommonList(props) {
 }
 
 CommonList.defaultProps = {
+  itemList: [],
   title: '',
-  variant: 'h6',
-  itemList: []
-}
+  variant: 'h6'
+};

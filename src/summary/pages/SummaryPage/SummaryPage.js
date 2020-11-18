@@ -8,11 +8,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import { useIndentStyles, CommonList } from '../../../common';
 
 const useStyles = makeStyles({
-  root: {
-    padding: '3rem',
-  },
   paper: {
     padding: '2rem'
+  },
+  root: {
+    padding: '3rem',
   }
 });
 

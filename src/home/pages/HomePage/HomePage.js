@@ -8,21 +8,21 @@ import { makeStyles } from '@material-ui/core/styles';
 import { useIndentStyles } from '../../../common';
 
 const useStyles = makeStyles({
+  avatar: {
+    height: '50vh',
+    width: '50vh',
+  },
+  container: {
+    '& > div': {
+      margin: '1rem 0'
+    },
+    alignItems: 'center',
+    display: 'flex',
+    flexDirection: 'column'
+  },
   root: {
     display: 'flex',
     justifyContent: 'center'
-  },
-  container: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    '& > div': {
-      margin: '1rem 0'
-    }
-  },
-  avatar: {
-    width: '50vh',
-    height: '50vh'
   },
   title: {
     textAlign: 'center'

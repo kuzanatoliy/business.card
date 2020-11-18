@@ -27,10 +27,10 @@ export function EducationPaper(props) {
 }
 
 EducationPaper.defaultProps = {
-  title: '-',
-  faculty: '-',
   degree: '-',
+  endYear: 0,
+  faculty: '-',
   specialty: '-',
   startYear: 0,
-  endYear: 0
-}
+  title: '-'
+};

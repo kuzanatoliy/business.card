@@ -1,14 +1,25 @@
 {
   "extends": "react-app",
 
-  "space-before-block": [ 2, "always" ],
-  "space-before-function-paren": [ "error", { "anonymous": "always", "named": "never", "asyncArrow": "always" } ],
-  "space-in-parents": [ 2, "never" ],
-  "space-infix-ops": 2,
-  "space-unary-ops": [ 2, { "words": true, "nowords": false } ],
-  "spaced-comment": [ 2, "always" ],
-  "switch-colon-spacing": 2,
-  "template-tag-spacing": [ 2, "always" ],
-  "unicode-bom": 0,
-  "wrap-regex": 2
+  "rules": {
+    "prefer-exponentiation-operator": 2,
+    "prefer-object-spread": 2,
+    "quote-props": [ 2, "as-needed" ],
+    "quotes": [ 2, "single" ],
+    "semi": [ 2, "always" ],
+    "semi-spacing": [ 2, { "before": false, "after": true } ],
+    "semi-style": [ 2, "last" ],
+    "sort-keys": 2,
+    "sort-vars": 2,
+    "space-before-blocks": [ 2, "always" ],
+    "space-before-function-paren": [ 2, { "anonymous": "always", "named": "never", "asyncArrow": "always" } ],
+    "space-in-parents": 0,
+    "space-infix-ops": 2,
+    "space-unary-ops": [ 2, { "words": true, "nonwords": false } ],
+    "spaced-comment": [ 2, "always" ],
+    "switch-colon-spacing": 2,
+    "template-tag-spacing": [ 2, "always" ],
+    "unicode-bom": 0,
+    "wrap-regex": 2
+  }
 }

@@ -62,5 +62,5 @@ export function Header(props) {
         </Typography>
       </Toolbar>
     </AppBar>
-  )
+  );
 }

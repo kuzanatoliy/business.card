@@ -5,5 +5,5 @@ export function SkillsPage() {
     <div>
       Skills page
     </div>
-  )
+  );
 }

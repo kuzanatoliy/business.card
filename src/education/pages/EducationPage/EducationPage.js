@@ -8,12 +8,12 @@ import { useIndentStyles } from '../../../common';
 
 const useStyles = makeStyles({
   root: {
-    display: 'flex',
-    flexDirection: 'column',
-    padding: '3rem',
     '& > div': {
       margin: '1rem 0'
-    }
+    },
+    display: 'flex',
+    flexDirection: 'column',
+    padding: '3rem'
   }
 });
 
@@ -48,5 +48,5 @@ export function EducationPage() {
         endYear={ 2014 }
       />
     </div>
-  )
+  );
 };
