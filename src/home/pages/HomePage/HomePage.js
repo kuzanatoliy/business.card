@@ -15,11 +15,17 @@ const useStyles = makeStyles({
   container: {
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center'
+    alignItems: 'center',
+    '& > div': {
+      margin: '1rem 0'
+    }
   },
   avatar: {
     width: '50vh',
     height: '50vh'
+  },
+  title: {
+    textAlign: 'center'
   }
 });
 
@@ -31,7 +37,7 @@ export function HomePage() {
     <div className={ `${ classes.root } ${ indentClasses.useIndentStyles }` }>
       <div className={ `${ classes.container } ${ indentClasses.main }` }>
         <Avatar src='/images/avatar.jpg' className={ classes.avatar }/>
-        <Typography variant='h3' color='primary'>Anatoli Kuzmiankou</Typography>
+        <Typography variant='h3' color='primary' className={ classes.title }>Anatoli Kuzmiankou</Typography>
       </div>
     </div>
   );
