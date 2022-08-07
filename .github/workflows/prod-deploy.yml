@@ -24,7 +24,7 @@ jobs:
       - name: deploy
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ftp.x29852yf.beget.tech
+          server: x29852yf.beget.tech
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./build/
