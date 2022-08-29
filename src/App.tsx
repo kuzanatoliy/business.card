@@ -1,8 +1,9 @@
-import { AboutMeSection } from "./components";
+import { AboutMeSection, EducationSection } from "./components";
 
 const App = () => (
   <>
     <AboutMeSection />
+    <EducationSection />
   </>
 );
 
