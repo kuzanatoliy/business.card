@@ -3,7 +3,6 @@ import { AboutMeSection, EducationSection } from "./components";
 const App = () => (
   <>
     <AboutMeSection />
-    <EducationSection />
   </>
 );
 

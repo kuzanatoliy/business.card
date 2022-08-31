@@ -15,6 +15,7 @@ export const aboutMeSectionStyles: Record<
   content: {
     display: "flex",
     flexDirection: "column",
+    justifyContent: "center",
   },
   description: {
     marginTop: "2rem",

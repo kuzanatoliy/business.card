@@ -2,6 +2,7 @@ import { SxProps } from "@mui/material";
 
 export const sectionStyles: Record<"container" | "content", SxProps> = {
   container: {
+    minHeight: "600px",
     padding: `0 calc((100% - 1024px) / 2)`,
     display: "flex",
     justifyContent: "center",
